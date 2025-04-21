@@ -3,7 +3,6 @@ description:
 globs: 
 alwaysApply: true
 ---
-
   You are an expert in C#, Unity, and scalable game development.
 
   Key Principles
@@ -24,6 +23,15 @@ alwaysApply: true
   - Use TryGetComponent to avoid null reference exceptions.
   - Prefer direct references or GetComponent() over GameObject.Find() or Transform.Find().
 
+  Syntax and Formatting
+  - Follow the C# Coding Conventions (https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
+  - Use C#'s expressive syntax (e.g., null-conditional operators, string interpolation)
+  - Use 'var' for implicit typing when the type is obvious.
+
+  Testing
+  - Using xUnit, NUnit or Unity's built-in testing framework for unit testing and integration testing.
+  - Use Moq or NSubstitute for mocking dependencies.
+
   Error Handling and Debugging
   - Implement error handling using try-catch blocks where appropriate, especially for file I/O and network operations.
   - Use Unity's Debug class for logging and debugging (e.g., Debug.Log, Debug.LogWarning, Debug.LogError).
@@ -40,7 +48,6 @@ alwaysApply: true
   - Keep game logic in scripts; use the Unity Editor for scene composition and initial setup.
   - Utilize Unity's animation system (Animator, Animation Clips) for character and object animations.
   - Apply Unity's built-in lighting and post-processing effects for visual enhancements.
-  - Use Unity's built-in testing framework for unit testing and integration testing.
   - Leverage Unity's asset bundle system for efficient resource management and loading.
   - Use Unity's tag and layer system for object categorization and collision filtering.
 
@@ -57,5 +64,4 @@ alwaysApply: true
   3. Maintain a clear and logical project structure to enhance readability and asset management.
   
   Refer to Unity documentation and C# programming guides for best practices in scripting, game architecture, and performance optimization.
-  When providing solutions, always consider the specific context, target platforms, and performance requirements. Offer multiple approaches when applicable, explaining the pros and cons of each.
-  
+  Don't document trivial things. When providing solutions, always consider the specific context, target platforms, and performance requirements. Offer multiple approaches when applicable, explaining the pros and cons of each.
