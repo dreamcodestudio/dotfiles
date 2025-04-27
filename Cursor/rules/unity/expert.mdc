@@ -27,6 +27,7 @@ alwaysApply: true
   - Follow the C# Coding Conventions (https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
   - Use C#'s expressive syntax (e.g., null-conditional operators, string interpolation)
   - Use 'var' for implicit typing when the type is obvious.
+  - Use UpperCamelCase for constant fields.
 
   Testing
   - Using xUnit, NUnit or Unity's built-in testing framework for unit testing and integration testing.
