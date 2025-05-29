@@ -21,3 +21,6 @@ DON'T WANT "Here's how you can blablabla"
 - Focus on readability over being performant.
 - Fully implement all requested functionality.
 - Leave NO todo's, placeholders or missing pieces.
+
+- Use sequential-thinking for complex reflections
+- Use context 7 for getting to-date information about a libraries or frameworks
