@@ -1,0 +1,41 @@
+[general]
+import = [
+    "C:\\Users\\indie\\AppData\\Roaming\\alacritty\\themes\\themes\\one_dark.toml"
+#
+# THEMES:
+# https://github.com/alacritty/alacritty-theme
+]
+
+[env]
+TERM = "xterm-256color"
+COLORTERM = "truecolor"
+LANG = "en_US.UTF-8"
+
+[font]
+size = 12
+
+[font.normal]
+family = "FiraCode Nerd Font Mono"
+style = "Regular"
+
+[window]
+decorations = "None"
+dynamic_padding = true
+opacity = 1.0
+startup_mode = "Maximized"
+
+[window.padding]
+x = 15
+y = 15
+
+[terminal.shell]
+program = "wsl"
+args = [
+    "--cd",
+    "~"
+]
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "N"
+mods = "Command"
