@@ -1,6 +1,6 @@
 [general]
 import = [
-    "C:\\Users\\indie\\AppData\\Roaming\\alacritty\\themes\\themes\\one_dark.toml"
+    "C:\\Users\\indie\\AppData\\Roaming\\alacritty\\themes\\themes\\dracula.toml"
 #
 # THEMES:
 # https://github.com/alacritty/alacritty-theme
@@ -12,11 +12,13 @@ COLORTERM = "truecolor"
 LANG = "en_US.UTF-8"
 
 [font]
-size = 12
+size = 14
 
 [font.normal]
-family = "FiraCode Nerd Font Mono"
-style = "Regular"
+family = "MonoLisa"
+#family = "FiraCode Nerd Font Mono"
+#family = "Hack Nerd Font"
+#family = "JetBrains Mono"
 
 [window]
 decorations = "None"
